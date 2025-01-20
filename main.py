@@ -24,6 +24,9 @@ dictionaries = {
         "Path": "Seikiri",
         "Child": "Igoni",
         "Food": "Feni"
+    },
+    "Language2": {
+        "word1" : "meaning1"
     }
 }
 
