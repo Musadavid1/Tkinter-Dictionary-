@@ -25,8 +25,13 @@ dictionaries = {
         "Child": "Igoni",
         "Food": "Feni"
     },
+
     "Language2": {
         "word1" : "meaning1"
+    },
+
+    "tiv": {
+        "word" : "meaning"
     }
 }
 
