@@ -3,6 +3,7 @@ from tkinter import ttk
 
 # Extended dictionary with multiple languages (Igala and English)
 dictionaries = {
+
     "Igala": {
         "Love": "Tari",
         "Ijaw (self-identification)": "Izon",
@@ -25,12 +26,31 @@ dictionaries = {
         "Child": "Igoni",
         "Food": "Feni"
     },
-    "Language2": {
-        "word1" : "meaning1"
+
+    "French": {
+        "House" : "Maison" ,
+        "Car" : "Voiture" ,
+        "Book" : "Livre",
+        "Water" : "Eau" ,
+        "Food" : "Nourriture",
+        "Friend" : "Amie",
+        "Love" : "Amour",
+        "Sun" : "Soleil",
+        "Moon" : "Lune",
+        "Tree" : "Arbre",
+        "sky" : "Ciel",
+        "Flower" : "Fleur",
+        "Mountain" : "Montagne",
+        "River" : "Riviere",
+        "City" : "Ville",
+        "Dog" : "Chien",
+        "Cat" : "Chat",
+        "Music" : "Musique",
+        "Family" : "Famille",
+        "Dream" : "Reve",
     }
+
 }
-
-
 def search_word():
     word = entry.get()
     language = language_combobox.get()  # Get selected language
@@ -61,7 +81,7 @@ language_label = tkinter.Label(root, text="Select Language:", font=("Helvetica",
 language_label.pack(pady=5)
 
 # Add a ComboBox to select language (Igala, English, etc.)
-language_combobox = ttk.Combobox(root, values=["Igala", "English"])
+language_combobox = ttk.Combobox(root, values=["Igala", "English", "French"])
 language_combobox.set("Igala")  # Set default language to Igala
 language_combobox.pack(pady=10)
 
