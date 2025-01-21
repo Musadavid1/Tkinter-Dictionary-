@@ -46,6 +46,10 @@ dictionaries = {
         "Music" : "Musique",
         "Family" : "Famille",
         "Dream" : "Reve",
+    },
+
+    "Anthony's Language": {
+        "word" : 'Meaning'
     }
 }
 
