@@ -3,7 +3,6 @@ from tkinter import ttk
 
 # Extended dictionary with multiple languages (Igala and English)
 dictionaries = {
-
     "Igala": {
         "Love": "Tari",
         "Ijaw (self-identification)": "Izon",
@@ -26,7 +25,6 @@ dictionaries = {
         "Child": "Igoni",
         "Food": "Feni"
     },
-
     "French": {
         "House" : "Maison" ,
         "Car" : "Voiture" ,
@@ -49,8 +47,9 @@ dictionaries = {
         "Family" : "Famille",
         "Dream" : "Reve",
     }
-
 }
+
+
 def search_word():
     word = entry.get()
     language = language_combobox.get()  # Get selected language
