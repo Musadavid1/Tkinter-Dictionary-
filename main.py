@@ -5,26 +5,27 @@ from tkinter import ttk
 dictionaries = {
 
     "Igala": {
-        "Love": "Tari",
-        "Ijaw (self-identification)": "Izon",
-        "Sun": "Ere",
-        "Water": "Beni",
-        "Peace": "Timine",
-        "Life": "Bu",
-        "House": "Bele",
-        "Friend": "Ogbo",
-        "Sea": "Abadi",
-        "River": "Toru",
-        "Fire": "Fie",
-        "Earth": "Aru",
-        "Moon": "Numa",
-        "Forest": "Ogoni",
-        "Place of rest": "Peremabiri",
-        "Work": "Dubo",
-        "Good": "Keme",
-        "Path": "Seikiri",
-        "Child": "Igoni",
-        "Food": "Feni"
+        "Stomache" : "Efu",
+        "Eye" : "Eju",
+        "Water" : "Omi",
+        "Mouth" : "Alu",
+        "Head" : "Oji",
+        "Node" : "Imo",
+        "Light" : "Una",
+        "Sky" : "Iri",
+        "Home" : "Iwe",
+        "Bag" : "Ikpe",
+        "Mother" : "Iya",
+        "Father" : "Baba",
+        "Son" : "Ono",
+        "Road" : "Ona",
+        "Food" : "Acho",
+        "Hello" : "Onwu",
+        "Good morning" : "Olududu",
+        "Thank you" : "Kede",
+        "How are you" : "Ile",
+        "How was work" : "Ucholowa",
+
     },
 
     "French": {
@@ -71,7 +72,9 @@ dictionaries = {
         "Life" : "Nyian",
         "Mountain" : "Gbenda",
         "Love" : "Msen",
-        "Tiv people" : "Tiv",
+        "Tiv people" : "Tiv"
+    }
+}
 
 def search_word():
     word = entry.get()
