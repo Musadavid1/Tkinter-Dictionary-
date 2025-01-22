@@ -50,12 +50,35 @@ dictionaries = {
         "Dream" : "Reve",
     },
 
+
     "tiv": {
         "person" : "or",
         "land" : "tar"
+    },
+
+    "Ijaw": {
+        "Love": "Tari",
+        "Ijaw (self-identification)": "Izon",
+        "Sun": "Ere",
+        "Water": "Beni",
+        "Peace": "Timine",
+        "Life": "Bu",
+        "House": "Bele",
+        "Friend": "Ogbo",
+        "Sea": "Abadi",
+        "River": "Toru",
+        "Fire": "Fie",
+        "Earth": "Aru",
+        "Moon": "Numa",
+        "Forest": "Ogoni",
+        "Place of rest": "Peremabiri",
+        "Work": "Dubo",
+        "Good": "Keme",
+        "Path": "Seikiri",
+        "Child": "Igoni",
+        "Food": "Feni"
     }
 }
-
 
 def search_word():
     word = entry.get()
@@ -69,12 +92,12 @@ def search_word():
         # Search for the word in the selected language dictionary
         meaning = selected_dict.get(word)
 
-        if meaning:s
+        if meaning:
             result_label.config(text=f"Meaning of '{word}' in {language}: {meaning}")
         else:
             result_label.config(text=f"Word '{word}' not found in {language}!")
     else:
-        result_label.config(text="Selected language not found!")
+            result_label.config(text="Selected language not found!")
 
 
 # Set up the Tkinter window
