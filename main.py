@@ -3,6 +3,7 @@ from tkinter import ttk
 
 # Extended dictionary with multiple languages (Igala and English)
 dictionaries = {
+
     "Igala": {
         "Love": "Tari",
         "Ijaw (self-identification)": "Izon",
@@ -25,6 +26,7 @@ dictionaries = {
         "Child": "Igoni",
         "Food": "Feni"
     },
+
     "French": {
         "House" : "Maison" ,
         "Car" : "Voiture" ,
@@ -48,8 +50,9 @@ dictionaries = {
         "Dream" : "Reve",
     },
 
-    "Anthony's Language": {
-        "word" : 'Meaning'
+    "tiv": {
+        "person" : "or",
+        "land" : "tar"
     }
 }
 
@@ -66,7 +69,7 @@ def search_word():
         # Search for the word in the selected language dictionary
         meaning = selected_dict.get(word)
 
-        if meaning:
+        if meaning:s
             result_label.config(text=f"Meaning of '{word}' in {language}: {meaning}")
         else:
             result_label.config(text=f"Word '{word}' not found in {language}!")
