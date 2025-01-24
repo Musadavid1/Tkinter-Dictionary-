@@ -51,7 +51,7 @@ dictionaries = {
     },
 
 
-    "tiv": {
+    "Tiv": {
         "person" : "or",
         "land" : "tar",
         "house"  : "yo",
@@ -72,8 +72,30 @@ dictionaries = {
         "Mountain" : "Gbenda",
         "Love" : "Msen",
         "Tiv people" : "Tiv"
-    }
+    },
+
+    "German" : {
+        "hello":"hallo",
+        "goodbye":"auf_wiedersehen",
+        "thank_you":"danke",
+        "water":"wasser",
+        "bread":"brot",
+        "house":"haus",
+        "car":"auto",
+        "bicycle":"fahrrad",
+        "love":"liebe",
+        "flower":"blume",
+        "sun":"sonne",
+        "moon":"mond",
+        "star":"sterm",
+        "bird":"vogel",
+        "fish":"fisch",
+        "book":"buch",
+        "school":"schule",
+        "garten":"garden",
 }
+}
+
 
 def search_word():
     word = entry.get()
@@ -105,7 +127,7 @@ language_label = tkinter.Label(root, text="Select Language:", font=("Helvetica",
 language_label.pack(pady=5)
 
 # Add a ComboBox to select language (Igala, English, etc.)
-language_combobox = ttk.Combobox(root, values=["Igala", "English", "French"])
+language_combobox = ttk.Combobox(root, values=["Igala", "TivG", "French", "Ijaw", "German"])
 language_combobox.set("Igala")  # Set default language to Igala
 language_combobox.pack(pady=10)
 
