@@ -9,7 +9,7 @@ dictionaries = {
         "Water" : "Omi",
         "Mouth" : "Alu",
         "Head" : "Oji",
-        "Node" : "Imo",
+        "Nose" : "Imo",
         "Light" : "Una",
         "Sky" : "Iri",
         "Home" : "Iwe",
@@ -93,7 +93,30 @@ dictionaries = {
         "book":"buch",
         "school":"schule",
         "garten":"garden",
-}
+},
+
+        "Ijaw": {
+                "Love": "Tari",
+                "Ijaw (self-identification)": "Izon",
+                "Sun": "Ere",
+                "Water": "Beni",
+                "Peace": "Timine",
+                "Life": "Bu",
+                "House": "Bele",
+                "Friend": "Ogbo",
+                "Sea": "Abadi",
+                "River": "Toru",
+                "Fire": "Fie",
+                "Earth": "Aru",
+                "Moon": "Numa",
+                "Forest": "Ogoni",
+                "Place of rest": "Peremabiri",
+                "Work": "Dubo",
+                "Good": "Keme",
+                "Path": "Seikiri",
+                "Child": "Igoni",
+                "Food": "Feni"
+        }
 }
 
 
