@@ -1,6 +1,5 @@
 import tkinter
 from tkinter import ttk
-
 # Extended dictionary with multiple languages (Igala and English)
 dictionaries = {
     "Igala": {
